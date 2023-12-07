@@ -3,12 +3,14 @@ body {
 }
 
 /* --- TopNav Styles  --- */
-    /* uls that are of the class top nav */
-#ceiling-glue{
+    /* Stick the nav bar to the top of the page, this has to be applied to a container div and not the navbar itself or it will break the styling */
+    #ceiling-glue{
     position: sticky;
     top: 0;
 }
-    ul.topnav {
+
+    /*styling for the nav bar*/
+    .topnav {
         list-style-type: none;
         margin: 0;
         padding: 0;
@@ -17,27 +19,26 @@ body {
     }
 
     /* li that are contained in the top nav */
-    ul.topnav li {
+    .topnav li {
         float: left;
     }
 
     /* style navbar items with the class right to be on the right side of the nav bar */
-    ul.topnav li.right {
+    .topnav li.right {
         float: right;
     }
 
     /* when we hover over an <a> tag contained in the topnav that isnt part of the drop down content and the top nav button is not currently active */
-    ul.topnav li a:hover:not(.active):not(.dropdown-content a) {
+    .topnav li a:hover:not(.active):not(.dropdown-content a) {
         background-color: #111;
     }
 
     /*Set the colour of the active page tab */
-    ul.topnav li a.active {
+    .topnav li a.active {
         background-color: #04AA6D;
     }
 
-    
-
+    /*set the styling for the dropdown list*/
     li a, .dropbtn {
         display: inline-block;
         color: white;
@@ -46,14 +47,16 @@ body {
         text-decoration: none;
     }
 
+    /*add a highlight to the main dropdown tab when you are hovering over one of its child elements but the dropdown tab is nt set to active*/
     li a:hover, .dropdown:hover .dropbtn:not(.active) {
         background-color: #111;
     }
 
-    li.dropdown {
+    li .dropdown {
         display: inline-block;
     }
 
+    /*styling for dropdown content, hidden by default*/
     .dropdown-content {
         display: none;
         position: absolute;
@@ -63,6 +66,7 @@ body {
         z-index: 1;
     }
 
+    /*set styling for links in the dropdown content*/
     .dropdown-content a {
         color: black;
         padding: 12px 16px;
@@ -71,11 +75,14 @@ body {
         text-align: left;
     }
 
+    /*set a slight highlight when hovering over items in the drop down content list*/
     .dropdown-content a:hover {
         background-color: #f1f1f1;
     }
 
+    /*show the drop down content when you hover over the dropdown tab*/
     .dropdown:hover .dropdown-content {
         display: block;
     }
 /* --- END TopNav Styles  --- */
+
