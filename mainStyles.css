@@ -31,7 +31,7 @@ body {
         background-color: #111;
     }
 
-
+    /*Set the colour of the active page tab */
     ul.topnav li a.active {
         background-color: #04AA6D;
     }
@@ -46,7 +46,7 @@ body {
         text-decoration: none;
     }
 
-    li a:hover, .dropdown:hover .dropbtn {
+    li a:hover, .dropdown:hover .dropbtn:not(.active) {
         background-color: #111;
     }
 
