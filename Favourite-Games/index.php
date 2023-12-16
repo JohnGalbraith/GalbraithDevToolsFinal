@@ -9,21 +9,21 @@
                 <li class="dropdown">
                     <a href="javascript:void(0)" class="dropbtn">Home</a>
                     <div class="dropdown-content">
-                          <a class="active" href="#">About</a>
-                          <a href="#">Contact</a>
+                          <a class="active" href="../index.php">About</a>
+                          <a href="../contact.php">Contact</a>
                     </div>
                 </li>
                 <li>
                     <a href="#" class="active">Favourite Games</a>
                 </li>
                 <li>
-                    <a href="#">Strategy Games</a>
+                    <a href="../Strategy-Games/index.php">Strategy Games</a>
                 </li>
                 <li>
-                    <a href="#">RougeLike Games</a>
+                    <a href="../Rougelike-Games/index.php">RougeLike Games</a>
                 </li>
                 <li>
-                    <a href="#">FPS Games</a>
+                    <a href="../FPS-Games/index.php">FPS Games</a>
                 </li>
             </ul>
         </div>
