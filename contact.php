@@ -1,6 +1,13 @@
 <html>
     <head>
         <link rel="stylesheet" href="mainStyles.css">
+        
+        <script>
+        window.onload = function(){
+            document.querySelector("#facade").addEventListener("click", function(){alert("Your message has definately been heard, and it is probably appreciated.")});
+        }
+        </script>
+        
     </head>
     <body>
         <!-- Top Navbar-->
@@ -31,6 +38,15 @@
         
         <div class="content">
         
+            <p>Hello, If you have found this page it means that you wish to contact me for some reason, maybe you dislike my taste in video games, maybe you really love one of the video games that I mentioned, maybe youre lonely, I dont know. What I do know is that I didnt actually hook this contact form up to anything so its just here to make you feel like youre able to air your complaints when really youre just tossing them to the wind.</p><br>
+            
+            <form>
+                <span>Email:</span><input type="email"><br>
+                <span>Name:</span><input type="text"><br>
+                <span>Message:</span><textarea></textarea><br><br><br>
+                <button id="facade" type="reset">Submit</button>
+            </form>
+            
         </div>
 
 
