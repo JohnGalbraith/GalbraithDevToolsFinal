@@ -9,7 +9,7 @@
                 <li class="dropdown">
                     <a href="javascript:void(0)" class="dropbtn">Home</a>
                     <div class="dropdown-content">
-                          <a class="active" href="../index.php">About</a>
+                          <a href="../index.php">About</a>
                           <a href="../contact.php">Contact</a>
                     </div>
                 </li>
